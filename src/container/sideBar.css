@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif !important;
+}
+
+.sitebar {
+  background-color: #181818;
+  position: relative;
+  color: #fff;
+}
+.sides {
+  display: flex;
+  justify-content: space-between;
+}
+.SideBarCenter {
+  background: linear-gradient(180deg, #3333a3 5.09%, #121212 33.4%);
+  width: 100%;
+}
+.SideBarLeft {
+  background-color: #000000;
+  color: #b2b2b2;
+}
+.SideBarRight {
+  width: 366px;
+  background: #000000;
+  color: #b2b2b2;
+}
+.SideBarLeft ul li,
+.SideBarLeft ul a {
+  list-style: none;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  line-height: 40px;
+}
+.SideBarLeft ul li:hover {
+  color: #fff;
+}
+.SideBarLeft ul {
+  margin-top: 20px;
+}
+.SideBarLeft ul li img {
+  width: 26px;
+  height: 26px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+.SideBarLeft ul li a {
+  text-decoration: none;
+  color: #b2b2b2;
+  align-items: center;
+}
+.SideBarLeft ul li a:hover {
+  color: #fff;
+}
+.SideBarLeft ul {
+  list-style-type: none;
+  padding: 0;
+}
+.SideBarLeft ul {
+  border-bottom: 1px solid #282828;
+  padding-bottom: 20px;
+}
+.SideBarLeft {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 310px;
+}
+.b_link {
+  margin-top: 25px;
+}
+.b_link ul li {
+  line-height: 40px;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-weight: 450;
+  text-align: left;
+}
+.SideBarCenter h2 {
+  padding-top: 30px;
+  padding-left: 25px;
+  font-weight: 500;
+  line-height: 49.33px;
+  text-align: left;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding-left: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.image-container {
+  background: #3c3c7d;
+  width: 480px;
+  height: 82px;
+  border-radius: 6px;
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.image-container p {
+  display: flex;
+  align-items: center;
+}
+.songName {
+  color: #fff;
+  height: 25px;
+  top: 28px;
+  left: 103px;
+  gap: 0px;
+  font-family: Circular Std;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.playlist-image {
+  border: 1px solid white;
+  border: none;
+  width: 82px;
+  height: 82px;
+  border-radius: 6px 0px 0px 6px;
+}
+.left__btn {
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 103px;
+  gap: 0px;
+  opacity: 0px;
+  background: none;
+  border: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.right__btn {
+  padding-top: 10px;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 103px;
+  gap: 0px;
+  opacity: 0px;
+  background: none;
+  border: none;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.SideBarRight {
+  padding-top: 10px;
+}
+.first_state {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.imag {
+  display: flex;
+  gap: 5px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.user img {
+  width: 62px;
+  height: 55px;
+  gap: 0px;
+  opacity: 0px;
+  flex-direction: column;
+  padding-left: 10px;
+  top: 20px;
+  margin: 10px;
+}
+.user {
+  width: 52px;
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
+}
+.img1 {
+  display: flex;
+  align-items: center;
+}
+.user .img1 .fon {
+  width: 100px;
+}
+.parag {
+  font-family: Circular Std;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.second_p {
+  padding-top: 200px;
+  font-family: Circular Std;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 25px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button {
+  margin-left: 45px;
+  margin-top: 35px;
+}
+.button button {
+  cursor: pointer;
+  height: 60px;
+  width: 170px;
+  border-radius: 40px;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.77px;
+  letter-spacing: 0.14em;
+  text-align: center;
+}
